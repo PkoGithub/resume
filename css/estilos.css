@@ -1,2 +1,5 @@
 /*3 major breaks 480, 768, 1024*/
 /*3 minor breaks 320, 720, 900*/
+body{
+	background-color:#f4f4e4;
+}
