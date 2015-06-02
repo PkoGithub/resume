@@ -1,5 +1,12 @@
 /*3 major breaks 480, 768, 1024*/
 /*3 minor breaks 320, 720, 900*/
+
+html{
+ /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;*/
+ font-family: 'Lato', Calibri, sans-serif;
+ font-size: 110%;  
+}
+
 body{
 	background-color:#f4f4e4;
 	margin:0;
@@ -11,12 +18,27 @@ body{
 	width:100%;
 }
 
-.header-h1, .header-h2{
-	visibility:hidden;
-	display:none;
-}
+	.header-h1, .header-h2{
+		visibility:hidden;
+		display:none;
+	}
+
+	.header-linkbar{
+		background-color:#882600;
+		padding:10px;		
+		margin-bottom:5px;
+		color:#fff;
+	}
+	.header-linkbar a{				
+		color:#fff;
+		text-decoration:none;
+		padding-right:5px;
+		padding-left:5px;
+	}
 
 .main-header{
+	width:100%;
+	background-color:#ffffff;
 }
 	
 	.main-header-top{
@@ -31,8 +53,7 @@ body{
 	.main-header__description, .main-header__social{		
 		background-color:#ffffff;
 		vertical-align:top;
-		display: table-cell;
-		border: 1px solid black;
+		display: table-cell;		
 	}
 	
 		.main-header__description li, .main-header__social li{
@@ -55,9 +76,20 @@ body{
 			border-radius:.5em;
 		}
 		
-		.main-header__alias{
+		.main-header__profileCard{
 			display: table-cell;
 			vertical-align:top;
+		}
+		
+		.profileCard-h1{
+			font-size: 1.5rem;
+			padding:0;
+			margin:0;
+		}
+		.profileCard-h2{
+			font-size: 1.2rem;
+			padding:0;
+			margin:0;
 		}
 	
 	.main-header-bottom{
@@ -66,40 +98,116 @@ body{
 	}
 	
 	.main-header__mensaje{
-		background-color:#ffffff;
+		background-color:#d3511e;
+		color:#fff;
 		margin:5;
 		display:table-cell;
+		font-size: .8rem;
+		width:100%;
+		padding:5px;
+		
 	}
-	.main-header__mensajeAvatar{
-		visibility:hidden;
-		display:none;
+	
+	.main-notas{
+		font-size: .74rem;
+		width:100%;
+		padding:5px;
 	}
 	
 	.main-habilidades{
 		background-color:#ffffff;
 		margin:5px;
+		padding-left:5px;
 	}
 	.main-proyectos{
 		background-color:#ffffff;
 		margin:5px;
+		padding-left:5px;
 	}
 	
 	.main-habilidades li, .main-proyectos li{
 		list-style-type:none;
 	}
+	
+	.main-habilidades__elemento{
+		display: table;
+		border-spacing:5px;		
+	}
+	
+	.main-habilidades li{
+		font-size:.9rem;
+		display: table-cell;
+		width:100px;
+		height:100px;
+		padding-left:5px;
+		padding-top:15px;		
+		font-weight:bold;
+	}
+	
+	.main-proyectos li{		
+		padding-left:15px;		
+		color:#565656;
+	}
+	
+	.red{
+		background-color:#ae3137;
+		color:#fff;
+	}
+	
+	.blue{
+		background-color:#1572b6;
+		color:#fff;
+	}
+	.green{
+		background-color:#5d7e4f;
+	}
+	.yellow{
+		background-color:#f0db4f;
+		color:#000;
+	}
+	.orange{
+		background-color:#f06529;
+		color:#fff;		
+	}
+	.purple{
+		background-color:#9675ab;
+		color:#fff;
+	}
+	.gray{
+		background-color:#524c4a;
+		color:#fff;
+	}
+	.cyan{
+		background-color:#74a9ad;
+		color:#fff;
+	}
 
+	.main-separador{
+		font-size:1rem;
+		font-weight:bold;
+	}
+	
 .footer{
 	display: table;
 	border-spacing:5px;
+	width:100%;
 }
 	.footer-section{
 		display: table-cell;
-		width:200px;
-		background-color:#ffffff;
+		width:33%;
+		background-color:#2f0505;
+		color:#fff;
+		font-size:.9rem;
+		padding-left:10px;
+		min-height:150px;
+		font-weight:bold;
 	}
 	
 	.footer-section li{
 		list-style-type:none;
+		font-size:.8rem;
+		padding-left:15px;
+		color:#CCC;
 	}
 	
 /*640pixeles*/	
@@ -109,9 +217,8 @@ body{
 		}
 		
 		.main{
-			width:600px;
-			margin-left:10px;
-			border:black 1px solid;
+			/*width:600px;*/
+			margin-left:10px;			
 		}
 		
 		.main-header__description, .main-header__social{
