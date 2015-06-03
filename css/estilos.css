@@ -35,7 +35,14 @@ body{
 		padding-right:5px;
 		padding-left:5px;
 	}
+	.header-linkbar a::after{				
+		content:" |";
+	}
 
+.main{	
+	margin-left:10px;	
+}
+	
 .main-header{
 	width:100%;
 	background-color:#ffffff;
@@ -117,12 +124,12 @@ body{
 	.main-habilidades{
 		background-color:#ffffff;
 		margin:5px;
-		padding-left:5px;
+		padding:5px;		
 	}
 	.main-proyectos{
 		background-color:#ffffff;
 		margin:5px;
-		padding-left:5px;
+		padding:5px;
 	}
 	
 	.main-habilidades li, .main-proyectos li{
@@ -195,19 +202,18 @@ body{
 	.footer-section{
 		display: table-cell;
 		width:33%;
-		background-color:#2f0505;
-		color:#fff;
+		/*background-color:#2f0505;*/
+		color:#000;
 		font-size:.9rem;
-		padding-left:10px;
-		min-height:150px;
+		padding-left:10px;		
 		font-weight:bold;
 	}
 	
 	.footer-section li{
 		list-style-type:none;
 		font-size:.8rem;
-		padding-left:15px;
-		color:#CCC;
+		padding-left:15px;		
+		color:#000;
 	}
 	
 /*640pixeles*/	
@@ -217,8 +223,7 @@ body{
 		}
 		
 		.main{
-			/*width:600px;*/
-			margin-left:10px;			
+			/*width:600px;*/					
 		}
 		
 		.main-header__description, .main-header__social{
@@ -246,4 +251,5 @@ body{
 		}		
 		
 	}/*640pixeles*/
+	
 	
