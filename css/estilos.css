@@ -88,13 +88,11 @@ body{
 			vertical-align:top;
 		}
 		
-		.profileCard-h1{
-			font-size: 1.5rem;
+		.profileCard-h1{			
 			padding:0;
 			margin:0;
 		}
-		.profileCard-h2{
-			font-size: 1.2rem;
+		.profileCard-h2{			
 			padding:0;
 			margin:0;
 		}
@@ -108,8 +106,7 @@ body{
 		background-color:#d3511e;
 		color:#fff;
 		margin:5;
-		display:table-cell;
-		font-size: .8rem;
+		display:table-cell;		
 		width:100%;
 		padding:5px;
 		
@@ -140,8 +137,7 @@ body{
 		border-spacing:5px;		
 	}
 	
-	.main-habilidades li{
-		font-size:.9rem;
+	.main-habilidades li{		
 		display: table-cell;
 		width:100px;
 		height:100px;
@@ -188,8 +184,7 @@ body{
 		color:#fff;
 	}
 
-	.main-separador{
-		font-size:1rem;
+	.main-separador{		
 		font-weight:bold;
 	}
 	
@@ -202,15 +197,13 @@ body{
 		display: table-cell;
 		width:33%;
 		/*background-color:#2f0505;*/
-		color:#000;
-		font-size:.9rem;
+		color:#000;		
 		padding-left:10px;		
 		font-weight:bold;
 	}
 	
 	.footer-section li{
-		list-style-type:none;
-		font-size:.8rem;
+		list-style-type:none;		
 		padding-left:15px;		
 		color:#000;
 	}
