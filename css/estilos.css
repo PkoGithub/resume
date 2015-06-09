@@ -4,7 +4,7 @@
 html{
  /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;*/
  font-family: 'Lato', Calibri, sans-serif;
- font-size: 110%;  
+ font-size: 100%;  
 }
 
 body{
@@ -106,7 +106,7 @@ body{
 		background-color:#d3511e;
 		color:#fff;
 		margin:5;
-		display:table-cell;		
+		/*display:table-cell;		*/
 		width:100%;
 		padding:5px;
 		
