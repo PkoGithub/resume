@@ -235,7 +235,7 @@ body{
 	}
 	
 /*640pixeles*/	
-	@media all and (max-width: 768px) {
+	@media all and (max-width: 900px) {
 		.header-h1{
 			color:red;
 		}
@@ -250,7 +250,7 @@ body{
 		}
 		
 		.main{
-			width:725px;
+			width:860px;
 			/*border:black 1px solid;*/
 		}
 		
