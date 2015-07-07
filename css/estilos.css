@@ -240,13 +240,17 @@ body{
 			color:red;
 		}
 		
+		.header-linkbar{
+			font-size:130%;
+		}
+		
 		.profileCard-h1{			
 			padding-left:5px;
-			font-size:130%;
+			font-size:150%;
 		}
 		.profileCard-h2{	
 			padding-left:5px;		
-			font-size:130%;
+			font-size:150%;
 		}
 		
 		.main{
@@ -263,7 +267,9 @@ body{
 			}
 			
 			.main-header__mensaje{
-				background-color:#b35e3d;			
+				background-color:#b35e3d;
+				width:960px;
+				font-size:120%;
 			}
 			
 			.main-content{
