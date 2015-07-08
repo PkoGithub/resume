@@ -253,17 +253,22 @@ body{
 			font-size:230%;
 		}
 		
+		.main-header__picture{
+			visibility:hidden;
+			display:none;
+		}
+		
 		.main{
 			width:985px;
 			/*border:black 1px solid;*/
 		}
 		
 			.main-header{
-				border-radius: .5em;
+				border-radius: 1em;
 			}
 			
 			.main-header-top{
-				border-radius: .5em;
+				border-radius: 1em;
 			}
 			
 			.main-header__mensaje{
@@ -286,10 +291,14 @@ body{
 			visibility:visible;
 			display:inline;
 		}
-		.main-header__avatar{								
-			
+		.main-header__avatar{			
 			/*margin-right: 10px;*/
 		}
+		
+		.main-habilidades li{		
+			font-size:130%;
+		}
+		
 		.main-header-bottom{
 			visibility:hidden;
 			display:none;
@@ -303,7 +312,7 @@ body{
 		}	
 
 		.main-notas{
-			font-size:80%;
+			font-size:120%;
 		}	
 		
 		.main-habilidades_banner{
@@ -313,18 +322,19 @@ body{
 		}
 			.banner_titulo{
 				color:white;
-				font-size:140%; 
+				font-size:160%; 
 				height:35px;
 			}
 			
 		.main-separador	{
 			color:#3f1200;
-			font-size:150%; 
+			font-size:170%; 
 		}
 		
 		.footer{
 					
 		}
+		.
 			
 		
 	}/*640pixeles*/
