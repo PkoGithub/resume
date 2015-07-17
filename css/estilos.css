@@ -312,7 +312,7 @@ body{
 		}	
 
 		.main-notas{
-			font-size:120%;
+			font-size:130%;
 		}	
 		
 		.main-habilidades_banner{
@@ -331,11 +331,18 @@ body{
 			font-size:170%; 
 		}
 		
-		.footer{
-					
+		.footer-section{
+			font-size:150%;		
 		}
-		.
-			
+		
+	
+		.main-proyectos{
+			font-size:170%; 
+		}	
+		
+		.main-portafolio{
+			font-size:170%;
+		}	
 		
 	}/*640pixeles*/
 	
