@@ -142,8 +142,6 @@ body{
 		
 		.main-habilidades li{		
 			display: table-cell;
-			width:130px;
-			height:130px;
 			padding-left:5px;
 			padding-top:15px;		
 			font-weight:bold;
@@ -296,7 +294,17 @@ body{
 		}
 		
 		.main-habilidades li{		
+		
+		}
+		
+		.main-habilidades li{		
 			font-size:130%;
+			width:150px;
+			height:150px;			
+		}
+		
+		.habilidad__titulo{
+			font-size:150%;
 		}
 		
 		.main-header-bottom{
