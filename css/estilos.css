@@ -294,18 +294,18 @@ body{
 		}
 		
 		.main-habilidades li{		
-		
-		}
-		
-		.main-habilidades li{		
 			font-size:130%;
 			width:150px;
 			height:150px;			
 		}
 		
-		.habilidad__titulo{
-			font-size:150%;
-		}
+			.habilidad__titulo{
+				font-size:150%;
+			}
+			
+			.habilidad__nivel{
+				font-size:130%;
+			}
 		
 		.main-header-bottom{
 			visibility:hidden;
